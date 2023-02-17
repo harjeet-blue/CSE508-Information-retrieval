@@ -221,7 +221,7 @@ for i in range(N):
 
     print("Query ", i+1)
     print("No of documents retrived: ", len(ans))
-    # print("Name of the documents retrived: ", [ docID[i] for i in ans ] )
+    print("Name of the documents retrived: ", [ docID[i] for i in ans ] )
     print("No of comparisions: ", comparisons)
 
 
